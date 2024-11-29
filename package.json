@@ -1,0 +1,13 @@
+{
+  "name": "commonjs-modules",
+  "version": "1.0.0",
+  "main": "names.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generatename": "node --watch names.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
