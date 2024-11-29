@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "generatename": "node names.js",
-    "generateHobbies": "node hobbies.js"
+    "generateHobbies": "node hobbies.js",
+    "generateObject": "node --watch people.js"
   },
   "keywords": [],
   "author": "",

@@ -16,7 +16,7 @@
 const hobbies = function (hobbyOne, hobbyTwo, hobbyThree) {
     return { "hobbies": [hobbyOne, hobbyTwo, hobbyThree] }
 }
-console.log(hobbies("swim", "golf", "music"));
+//console.log(hobbies("swim", "golf", "music"));
 
 /*------ArrowFunction-Sintax------*/
 // const hobbies = (hobbyOne, hobbyTwo, hobbyThree) => ({ "hobbies": [hobbyOne, hobbyTwo, hobbyThree] });

@@ -24,14 +24,13 @@ Buon lavoro ! :muscolo: (modificato)
 console.clear();
 
 /*------Function-To-Generate-Name-BaseSintax------*/
-
-const generateName = function fullNameGenerator(fisrtName, lastName) {
-    return { fisrtName, lastName };
+const generateName = function (firstName, lastName) {
+    return { firstName, lastName };
 }
-console.log(generateName("Andrea", "Presti"));
+//console.log(generateName("Andrea", "Presti"));
 
 /*------ArrowFunction-Sintax------*/
-//const generateName = (fisrtName, lastName) => ({ fisrtName, lastName }); // Le tonde evitano errori di sintassi con le graffe, in conflitto con le arrowFunction.
+//const generateName = (firstName, lastName) => ({ fisrtName, lastName }); // Le tonde evitano errori di sintassi con le graffe, in conflitto con le arrowFunction.
 //console.log(generateName("Andrea", "Presti"));
 
 /*------Modules-Export-Sintax------*/
