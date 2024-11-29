@@ -4,6 +4,14 @@
  ?     di hobby.
  */
 
+/**
+* 
+* @param {string} hobbyOne 
+* @param {string} hobbyTwo 
+* @param {string} hobbyThree 
+* @returns Object An object with param hobbies and array of hobbies inside
+*/
+
 /*------Function-Hobbies-BaseSintax------*/
 const hobbies = function (hobbyOne, hobbyTwo, hobbyThree) {
     return { "hobbies": [hobbyOne, hobbyTwo, hobbyThree] }
